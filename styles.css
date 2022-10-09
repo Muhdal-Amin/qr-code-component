@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Lato&family=Libre+Baskerville&family=Open+Sans:wght@300;400;500&family=Outfit:wght@400;700&family=PT+Serif:wght@700&display=swap');
+   
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  min-height: 95vh;
+}
+.card {
+position: relative;
+min-height: clamp(533px, 100%, 580px);
+max-width: clamp(326px, 100%, 337px);
+padding: 24px 25px 24px 24px;
+background-color: hsl(0, 0%, 100%);
+border-radius: 20px;
+}
+.main {
+min-height: 95vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card__img-container {
+position: relative;
+}
+.card__img {
+display: block;
+width: 300px;
+margin-bottom: 24px;
+border-radius: 10px;
+margin-left: -5px;
+margin-top: -5px;
+}
+.paragraph-1 {
+  font-family: 'Outfit', sans-serif;
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  letter-spacing: 0.7px;
+}
+.paragraph-2 {
+  font-family: 'Outfit', sans-serif;
+  color: hsl(220, 15%, 55%) ;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400px;
+  margin-left: 5px;
+  letter-spacing: 0.3px;
+}
