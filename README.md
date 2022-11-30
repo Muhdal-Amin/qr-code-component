@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/qr-code-component-using-html-and-css-X9PZondZ4C)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/qr-code-component-using-html-and-css-an8aWkKWBh)
 - Live Site URL: [QR Code Component]( https://muhdal-amin.github.io/qr-code-component/)
 
 ## My process
