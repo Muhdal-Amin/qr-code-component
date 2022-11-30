@@ -2,11 +2,14 @@
    
 * {
   box-sizing: border-box;
+  font-family: "outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 body {
   background-color: hsl(212, 45%, 89%);
-  font-family: "Outfit", sans-serif;
-  min-height: 95vh;
+  min-height: 100vh;
 }
 .card {
 position: relative;
@@ -15,6 +18,7 @@ max-width: clamp(326px, 100%, 337px);
 padding: 24px 25px 24px 24px;
 background-color: hsl(0, 0%, 100%);
 border-radius: 20px;
+box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
 }
 .main {
 min-height: 95vh;
@@ -35,7 +39,6 @@ margin-left: -5px;
 margin-top: -5px;
 }
 .paragraph-1 {
-  font-family: 'Outfit', sans-serif;
   color: hsl(218, 44%, 22%);
   text-align: center;
   font-size: 22px;
@@ -45,11 +48,11 @@ margin-top: -5px;
   letter-spacing: 0.7px;
 }
 .paragraph-2 {
-  font-family: 'Outfit', sans-serif;
   color: hsl(220, 15%, 55%) ;
   text-align: center;
   font-size: 16px;
   font-weight: 400px;
   margin-left: 5px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.1875px;
+  line-height: 1.1875rem;
 }
